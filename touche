@@ -151,175 +151,156 @@
 		</div>
 		
 		<div class="thirdlook">
-			<h2>Записаться на занятия</h2>
-		
-			<section id="for m">
+			<h2 id="form">Записаться на занятия</h2>
+				
+			<section class="forma">
+				<img class="pict" src="images/epee.png" alt="fencing icon">
 				<form name="Zayavka" method="post" action="file.php">
-				
-				
-				<div>
-				<label for="otzyv">Vash Otzyv:</label>
-				<INPUT type="text" name="otzyv" id="otzyv" placeholder="ваш отзыв">
-				</div>
-				
-				<div>
-				<INPUT type="password" readonly>
-				</div>
-				
-				<div>
-				<INPUT type="file">
-				</div>
-				
-				<div>
-				<INPUT type="button" value="Текст на самой кнопке">
-				</div>
-				
-				<div>
-				<INPUT type="image" src="путь к изображению">
-				</div>
-			
-				<div class="text">Для того, чтобы поделиться с вами результатами, позвольте узнать наиболее удобный способ связи с вами </div>
-				
-				<div>
-				<input type="email" name="email">
-				</div>
-				
-				<input type="url" name="vk profile">
-				
-				<input type="tel" name="phonenumber">
-				
-				<div>
-				<textarea cols="75" autofocus maxlength="500" name="" placeholder="Впишите сюда все иные комментарии, которые вы считаете важными для определения  группы" required wrap="hard"></textarea>
-				</div>
-				
-				<div> 
-				<INPUT type="checkbox" value="on">Я согласен(-на) с условиями пользовательского соглашения и обработкой моих данных.
-				</div> 
-				
-				<div> 
-				<INPUT type="submit" value="Please CLICK to submit">
-				</div> 
-				
-				<div> 
-				<INPUT type="reset">
-				</div> 
-
-				
-				<div>
-				<label for="otzyv">Vash Otzyv:</label>
-				<INPUT type="text" name="otzyv" id="otzyv" placeholder="ваш отзыв">
-				</div>
-				
-				<div>
-				<INPUT type="password" readonly>
-				</div>
-				
-				<div>
-				<INPUT type="file">
-				</div>
-				
-				<div>
-				<INPUT type="button" value="Текст на самой кнопке">
-				</div>
-				
-				<div>
-				<INPUT type="image" src="путь к изображению">
-				</div>
-				
-				
-				
-				
-				
-				
-				<div class="forma">
-					<img id="form" src="images/epee.png" alt="fencing icon">
 					
-					<form>
-						
-						<div class="section"><span>1</span>Персональная информация</div>
-						<div class="vopros">
-							<label for="name">Имя<input type="text" name="name" id="name" placeholder="Мария Поклонская" required></label>
-							<label for="vozrast">Выберите ваш возраст:</label>
-								<select name="vozrast" id="vozrast" required>
-									<option value="">до 12</option>
-									<option value="">13-16</option>
-									<option value="">17-21</option>
-									<option value="">22-27</option>
-									<option value="">28-35</option>
-									<option value="">36-50</option>
-									<option value="">50+</option>
-								</select>
-						</div>
+					<h4><span>1</span>Персональная информация</h4>
+					<div class="vopros">
+						<label for="name">Имя<input type="text" name="name" id="name" placeholder="Мария Поклонская" required></label>
+						<label for="vozrast">Возраст
+							<select name="vozrast" id="vozrast" required>
+								<option value="до 12">до 12</option>
+								<option value="13-16">13-16</option>
+								<option value="17-21">17-21</option>
+								<option value="22-27">22-27</option>
+								<option value="28-35">28-35</option>
+								<option value="36-50">36-50</option>
+								<option value="50+">50+</option>
+							</select>
+						</label>
+					</div>
 
-						<div class="section"><span>2</span>Подбор вида занятий</div>
-						<div class="vopros">
-							<span>Как часто на протяжение последнего года вы занимались спортом?</span>
-							<ul>
-								<li>
-									<label><input type="radio" name="aktivnost" value="Не тренирован" required>Не занимался(-ась) вообще</label>
-								</li>
-								
-								<li>
-									<label><input type="radio" name="aktivnost" value="Нерегулярные тренировки">Занимался(-ась) нерегулярно</label>
-								</li>
-								
-								<li>
-									<label><input type="radio" name="aktivnost" value="1-2 часа в неделю">Занимался(-ась) регулярно в среднем 1-2 часа в неделю</label>
-								</li>
-								
-								<li>
-									<label><input type="radio" name="aktivnost" value="3-6 часов в неделю">Занимался(-ась) регулярно в среднем 3-6 часов в неделю</label>
-								</li> 
-								
-								<li>
-									<label><input type="radio" name="aktivnost" value="более 6 часов в неделю">Занимался(-ась) регулярно в среднем более 6 часов в неделю</label>
-								</li> 
-							</ul>
-						
-						
-						
-						
-						
-						</div>
-						
-						
-						
-						
-						
-						
-						
-						
-						<div class="vopros">
-							<label>Email Address <input type="email" name="field3" /></label>
-							<label>Phone Number <input type="text" name="field4" /></label>
-						</div>
-
-						<div class="section"><span>3</span>Контакты</div>
-							<div class="vopros">
+					<h4><span>2</span>Подбор вида занятий</h4>
+					<div class="vopros">
+						<p>Как часто на протяжение последнего года вы занимались спортом?</p>
+						<ul>
+							<li>
+								<label><input type="radio" name="aktivnost" value="Не тренирован" required>Не занимался(-ась) вообще</label>
+							</li>
 							
-							<label>Password <input type="password" name="field5" /></label>
+							<li>
+								<label><input type="radio" name="aktivnost" value="Нерегулярные тренировки">Занимался(-ась) нерегулярно</label>
+							</li>
 							
-							<label>Confirm Password <input type="password" name="field6" />
+							<li>
+								<label><input type="radio" name="aktivnost" value="1-2 часа в неделю">Занимался(-ась) регулярно в среднем 1-2 часа в неделю</label>
+							</li>
+							
+							<li>
+								<label><input type="radio" name="aktivnost" value="3-6 часов в неделю">Занимался(-ась) регулярно в среднем 3-6 часов в неделю</label>
+							</li> 
+							
+							<li>
+								<label><input type="radio" name="aktivnost" value="более 6 часов в неделю">Занимался(-ась) регулярно в среднем более 6 часов в неделю</label>
+							</li> 
+						</ul>
+					
+						<label for="tip zanyatii">Тип занятий
+							<select name="tip zanyatii" id="tip zanyatii" required>
+								<option value="Kids">Детское фехтование</option>
+								<option value="Fitness">Фитнес-фехтование</option>
+								<option value="Old">Ветеранское фехтование</option>
+								<option value="0">Пока не знаю</option>
+							</select>
+						</label>
+						
+						<label for="vid oryzhia">Вид оружия
+							<select name="vid oryzhia" id="vid oryzhia">
+								<option value="Foil">Рапира</option>
+								<option value="Sabre">Сабля</option>
+								<option value="Epee">Шпага</option>
+								<option value="0">Пока не знаю</option>
+							</select>
+						</label>
+						
+						<div>
+							<label for="comment">Комментарии
+								<textarea cols="75" maxlength="500" name="comment" id="comment" placeholder="Впишите сюда иные важные для определения  группы комментарии"></textarea>
 							</label>
 						</div>
-						<div class="button-section">
-						 <input type="submit" name="Sign Up" />
-						 <span class="privacy-policy">
-						 <input type="checkbox" name="field7">Я не робот 
-						 </span>
-						</div>
-					</form>
-				</div>
+						
+					</div>
+						
+					<h4><span>3</span>Ваши контакты</h4>
+					<div class="vopros">
+						<label for="email">Email<input type="email" name="email" id="email" placeholder="paklenka@yandex.ru" required></label>
+						
+						<label for="phone">Телефон<input type="tel" name="Phone" id="phone"placeholder="+375 29 119 73 07" required></label>
+					</div>
+					
+							
+					<div>
+						<input type="submit" name="Sign Up" />
+						<span class="nerobot">
+						<input type="checkbox" name="field7" value="nerobot">Я не робот 
+						</span>
+					</div>
+					
+					<div>
+					<INPUT type="button" value="Текст на самой кнопке">
+					</div>
+					
+					
+			
+					<label>Password <input type="password" name="field5" /></label>
+					
+					<label>Confirm Password <input type="password" name="field6" />
+					</label>
+					
+					
+					
 				
+					
+					<div> 
+					<INPUT type="submit" value="Please CLICK to submit">
+					</div> 
+					
+					<div> 
+					<INPUT type="reset">
+					</div> 
+
+					
+					<div>
+					<label for="otzyv">Vash Otzyv:</label>
+					<INPUT type="text" name="otzyv" id="otzyv" placeholder="ваш отзыв">
+					</div>
+					
+					<div>
+					<INPUT type="password" readonly>
+					</div>
+					
+					<div>
+					<INPUT type="file">
+					</div>
+					
+					<div>
+					<INPUT type="button" value="Текст на самой кнопке">
+					</div>
+					
+					<div>
+					<INPUT type="image" src="путь к изображению">
+					</div>
+				
+				
+				
+						
+						
+						
+				</form>
+				
+				<img class="pict" src="images/mask.png" alt="fencing mask">
+				<div class="clear1"> </div>
 			</section>
 		
 				
-				
-				
-				
-				
-				
 		</div>		
+				
+				
+				
+				
 		
 		
 		<a href="#main"><div class="totop"><i></i></div></a>
@@ -329,11 +310,12 @@
 		<footer>
 			<div class="socialnetworks"></div>
 			<ul>
-				<li><a href="#"><i></i></a></li>
-				<li><a href="#"><i></i></a></li>
-				<li><a href="#"><i></i></a></li>
-				<li><a href="#"><i></i></a></li>
-				<li><a href="#"><i></i></a></li>
+				<li><a href="//www.twitter.com"><i></i></a></li>
+				<li><a href="//www.facebook.com"><i></i></a></li>
+				<li><a href="//www.instagram.com"><i></i></a></li>
+				<li><a href="//www.ok.ru"><i></i></a></li>
+				<li><a href="//www.vk.com"><i></i></a></li>
+				<li><a href="mailto:paklenka@yandex.ru"><i></i></a></li>
 			</ul>
 		
 		</footer>
@@ -341,8 +323,6 @@
 		
 				
 				
-			</div>
-			
-				
+	</div>
 </body>
 </html>
