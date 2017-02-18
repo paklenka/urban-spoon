@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6
 	font-family: 'Roboto', sans-serif;
 }
 
-p, nav, form, button, label, input
+p, nav, form, button, label, input, form select, form textarea
 {
 	font-family: 'Arsenal', sans-serif;
 }
@@ -170,6 +170,20 @@ h1
 	font-size:42pt;
 	text-transform: uppercase;
 }
+
+h1:before 
+{  
+    content: open-quote;  
+	font-size:72pt;
+	font-style:italic;
+}  
+h1:after 
+{  
+    content: close-quote;  
+	font-size:72pt;
+	font-style:italic;
+	position: ;
+}  
 
 .share
 {
@@ -574,8 +588,8 @@ hr
 
 .totop:hover
 {
-    border-color: #1bbc9b;
-	color: #1bbc9b;
+    border-color: #fff;
+	color: #fff;
 }
 
 footer
@@ -585,6 +599,12 @@ footer
 	padding:2vh 0; 
 	text-align:center;
 }
+
+footer a
+{
+	color:#fff;
+}
+
 .socialnetworks
 {
 	margin-bottom:1vh;
@@ -606,9 +626,9 @@ footer .information li::before
 	content:"  |  ";
 }
 
-footer .information li:nth-child(1)
+footer .information li:first-child:before
 {
-	content:" ";
+	content:"";
 }
 
 
@@ -666,5 +686,3 @@ footer .information li:nth-child(1)
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
   }
 }
-
-
