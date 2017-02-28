@@ -4,27 +4,28 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Touche - Главная</title>
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
-	<link rel=icon href="images/favicon.ico">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal|Roboto">	
-	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arsenal|Roboto">	<!-- подключение шрифтов текста -->
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"> <!--подключение иконочных шрифтов-->
 	
 </head>
 
 <body>
-	<div id="main">
-		<div class="firstlook">
+	<div id="main"> <!--общий контейнер для всего контента страницы-->
+		<div class="firstlook"> <!-- див для объединения объектов на первой странице прокрутки -->
 			<header>
 				<div class="logo">
 					<a href="index.html">
-						<img alt="logo-dark" src="images/logo_white.png">
+						<img alt="logo-dark" src="images/logo_white.png"> <!-- вставка логотипа -->
 					</a>
+					<div class="clear1"></div>
 				</div>
 				
-				<nav>
+				<nav> <!-- навигация -->
 					<ul class="topmenu">
 						<li><a href="#">О нас</a>
 							<ul class="submenu">
@@ -56,37 +57,47 @@
 						</li>
 						
 						<li><a href="#">Контакты</a></li>
-					</ul>					
+					</ul>	
+						
+					
+					<ul class="topmenu2"> 
+						<li><a href="#">О нас</a></li>						
+						<li><a href="#">Тренировки</a></li>
+						<li><a href="#">Расписание</a></li>
+						<li><a href="#">Стоимость</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul> 
+					
 				</nav>
 								
 				<div class="clear1"> </div>
 			</header>
 			
-			<div class="phrase">
-				<div> 
+			<div>
+				<div class="phrase">
 					<h1>Я занимаюсь<br>фехтованием</h1>
 				</div>	
 					
-				<div class="share">
-					<a class="aaa" href="https://twitter.com/intent/tweet?button_hashtag=TwitterStories&text=%D0%AF%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%8E%D1%81%D1%8C%20%D1%84%D0%B5%D1%85%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC!%20%23%D0%BA%D0%BB%D1%83%D0%B1Touche%20https%3A%2F%2Ftouche.by">
-						<i class="fa-1 fa-2x">&#xf099;</i>
+				<div class="share"> 
+					<a href="https://twitter.com/intent/tweet?button_hashtag=TwitterStories&text=%D0%AF%20%D0%B7%D0%B0%D0%BD%D0%B8%D0%BC%D0%B0%D1%8E%D1%81%D1%8C%20%D1%84%D0%B5%D1%85%D1%82%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC!%20%23%D0%BA%D0%BB%D1%83%D0%B1Touche%20https%3A%2F%2Ftouche.by">
+						<i class="fa-1 fa-2x">&#xf099;</i> <!--вставка иконки через иконочный шрифт-->
 					</a>
 					
-					<a href="">
-						<i class="fa-2 fa-2x">&#xf09a;</i>
+					<a href="#">
+						<i class="fa-2 fa-2x">&#xf09a;</i> <!--вставка иконки через иконочный шрифт-->
 					</a>
 					
-					<a href="">
-						<i class="fa-3 fa-2x">&#xf263;</i>
+					<a href="#">
+						<i class="fa-3 fa-2x">&#xf263;</i> <!--вставка иконки через иконочный шрифт-->
 					</a>
 					
-					<a href="">
-						<i class="fa-4 fa-2x">&#xf189;</i>
+					<a href="#">
+						<i class="fa-4 fa-2x">&#xf189;</i> <!--вставка иконки через иконочный шрифт-->
 					</a>
 					
 				</div>
 				
-				<!--<div class="prisoedinitsa">
+				<!--<div class="prisoedinitsa"> можно вставить гифку, а не ионный эффект
 					<a href="#form">
 						<img alt="prisoeninitsa" src="images/gifka.gif">
 					</a>
@@ -97,62 +108,43 @@
 			</div>
 		</div>
 		
-		<div class="secondlook">
+		<div class="secondlook"> <!-- див для объединения объектов во втором блоке -->
 		
 			<h2>Почему фехтование?</h2>
 								
 			<div class="infobox">
-			<h3>Эмоции</h3>
-			<!--<p>Возможно, вы видели, как после нанесения укола бойцы кричат. Нет, им не больно (хотя бывают и такие случаи) просто после нанесения укола эмоции накрывают с головой. Хочется кричать и не стоит себя сдерживать! Это отличный способ выпустить пар! </p>-->
+			<h3>Выброс эмоций</h3>
 			</div>
 			
 			<div class="infobox">
 			<h3>Умный вид спорта</h3>
-			<!--<p>В фехтовании мало быть выносливым  и быстрым. В первую очередь фехтование - это борьба умов. Обмануть противника, "прочесть" его любимые защиты и найти слабые места - настоящая головоломка!</p>-->
 			</div>
 			
 			<div class="infobox">
-			<h3>Необычно</h3>
-			<!--<p>Ну кто еще среди ваших знакомых сможет похвастать таким хобби? </p>-->
+			<h3>Спорт аристократии</h3>
 			</div>
-			
-			
-			<div class="infobox">
-			<h3>Аристократично</h3>
-			<!--<p>Фехтование - по-настоящему аристократический вид спорта с бесменными правилами выступать в белом и коммуницировать на французском языке. </p>-->
-			</div>
-			
-			<div class="infobox">
-			<p>Улучшает точность</p>
-			<!--<p></p>-->
-			</div>
-			
 			
 			<div class="infobox">
 			<h3>Мгновенная реакция</h3>
-			<!--<p></p>-->
 			</div>
 			
 			<div class="infobox">
-			<h3>Красиво</h3>
-			<!--<p></p>-->
+			<h3>А еще, это красиво</h3>
 			</div>
 			
 			
 			<div class="infobox">
 			<h3>Улучшает точность</h3>
-			<!--<p></p>-->
 			</div>
 			
-			<a id="ion2" href="#form">записаться</a>
-
+			<div class="clear1"> </div> 
 			
 		</div>
 		
 		<div class="thirdlook">
 			<h2>Записаться на занятие</h2>
 				
-			<section id="form">
+			<section id="form"> <!-- контейнер для объединения всех элементов в форме -->
 		
 			<img class="pict" src="images/epee.png" alt="fencing icon">
 				
@@ -163,7 +155,7 @@
 					<label for="name">Имя<span class="zvezda">*</span><input type="text" name="name" id="name" placeholder="Мария Поклонская" required></label>
 					<label for="vozrast">Возраст<span class="zvezda">*</span>
 						<select name="vozrast" id="vozrast" required>
-							<option value="до 12">до 12</option>
+							<option value="до12">до 12</option>
 							<option value="13-16">13-16</option>
 							<option value="17-21">17-21</option>
 							<option value="22-27">22-27</option>
@@ -179,28 +171,28 @@
 					<p>Как часто на протяжении последнего года вы занимались спортом?<span class="zvezda">*</span></p>
 					<ul>
 						<li>
-							<label><input type="radio" name="aktivnost" value="Не тренирован" required>Не занимался(-ась) вообще</label>
+							<label><input type="radio" name="aktivnost" value="Нетренирован" required>Не занимался(-ась) вообще</label>
 						</li>
 						
 						<li>
-							<label><input type="radio" name="aktivnost" value="Нерегулярные тренировки">Занимался(-ась) нерегулярно</label>
+							<label><input type="radio" name="aktivnost" value="Нерегулярныетренировки">Занимался(-ась) нерегулярно</label>
 						</li>
 						
 						<li>
-							<label><input type="radio" name="aktivnost" value="1-2 часа в неделю">Занимался(-ась) регулярно 1-2 часа в неделю</label>
+							<label><input type="radio" name="aktivnost" value="1-2часавнеделю">Занимался(-ась) регулярно 1-2 часа в неделю</label>
 						</li>
 						
 						<li>
-							<label><input type="radio" name="aktivnost" value="3-6 часов в неделю">Занимался(-ась) регулярно 3-6 часов в неделю</label>
+							<label><input type="radio" name="aktivnost" value="3-6часоввнеделю">Занимался(-ась) регулярно 3-6 часов в неделю</label>
 						</li> 
 						
 						<li>
-							<label><input type="radio" name="aktivnost" value="более 6 часов в неделю">Занимался(-ась) регулярно более 6 часов в неделю</label>
+							<label><input type="radio" name="aktivnost" value="более6часоввнеделю">Занимался(-ась) регулярно более 6 часов в неделю</label>
 						</li> 
 					</ul>
 				
-					<label for="tip zanyatii">Тип занятий<span class="zvezda">*</span>
-						<select name="tip zanyatii" id="tip zanyatii" required>
+					<label for="tipzanyatii">Тип занятий<span class="zvezda">*</span>
+						<select name="tipzanyatii" id="tipzanyatii" required>
 							<option value="Kids">Детское фехтование</option>
 							<option value="Fitness">Фитнес-фехтование</option>
 							<option value="Old">Ветеранское фехтование</option>
@@ -208,8 +200,8 @@
 						</select>
 					</label>
 					
-					<label for="vid oryzhia">Вид оружия<span class="zvezda">*</span>
-						<select name="vid oryzhia" id="vid oryzhia"required>
+					<label for="vidoryzhia">Вид оружия<span class="zvezda">*</span>
+						<select name="vidoryzhia" id="vidoryzhia" required>
 							<option value="Foil">Рапира</option>
 							<option value="Sabre">Сабля</option>
 							<option value="Epee">Шпага</option>
@@ -240,8 +232,9 @@
 				
 				<label class="nerobot" for="nerobot"><input type="checkbox" value="nerobot" id="nerobot" required>Я не робот<span class="zvezda">*</span></label>
 				
-				<div class="clear"></div>
+				<div class="clear1"></div>
 				</div>
+				
 				<hr>
 			
 				<p>Вопросы, отмеченные "<span class="zvezda">*</span>" - обязательны для заполнения.</p>
@@ -252,36 +245,34 @@
 			</section>
 		</div>		
 				
-		<a href="#main"><div class="totop"><i class="fa">&#xf077;</i></div></a>
-		<div> partners</div>
-
+		<a href="#main"><div class="totop"><i class="fa">&#xf077;</i></div></a> <!-- элемент-кнопка "наверх"  -->
+	
 		<footer>
 			<div class="socialnetworks">
 			<ul>
-				<li><a href="//www.twitter.com"><i class="fa">&#xf1db; &#xf099;</i></a></li>
-				<li><a href="//www.facebook.com"><i class="fa">&#xf09a;</i></a></li>
-				<li><a href="//www.instagram.com"><i class="fa">&#xf16d;</i></a></li>
-				<li><a href="//www.ok.ru"><i class="fa">&#xf263;</i></a></li>
-				<li><a href="//www.vk.com"><i class="fa">&#xf189;</i></a></li>
+				<li><a href="https://twitter.com/"><i class="fa">&#xf099;</i></a></li> <!-- здесь и ниже примеры поключения иконок через иконочный шрифт-->
+				<li><a href="https://www.facebook.com"><i class="fa">&#xf09a;</i></a></li>
+				<li><a href="https://www.instagram.com"><i class="fa">&#xf16d;</i></a></li>
+				<li><a href="https://www.ok.ru"><i class="fa">&#xf263;</i></a></li>
+				<li><a href="https://www.vk.com"><i class="fa">&#xf189;</i></a></li>
 				<li><a href="mailto:paklenka@yandex.ru"><i class="fa">&#xf003;</i></a></li>
 				<li><a href="https://goo.gl/maps/5ckLNAvESSN2"><i class="fa">&#xf124;</i></a></li>
 			</ul>
 			</div>
 			
 			<div class="information">
+			<ul>
 				<li>ИООО "Touche"</li>
 				<li>г. Минск, пр. Победителей 109</li>
 				<li>+375 29 119 73 07</li>
 				<li><a href="#">Карта сайта</a></li>
+			</ul>
 			</div>
 			
 			<div class="copyright">
 			<h5>created by <a href="https://github.com/paklenka">Maryia</a></h5>
 			</div>
 		</footer>
-
-		
-				
 				
 	</div>
 </body>
